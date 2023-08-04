@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-    baseURL: "https://api-shoppe.onrender.com/api",
+    baseURL: "https://backend-shoppe.onrender.com/api",
 });
 
 instance.interceptors.response.use(
@@ -21,4 +21,4 @@ instance.interceptors.response.use(
 export default instance;
 
 
-export const PORT_APIS = "https://api-shoppe.onrender.com/api";
+export const PORT_APIS = "https://backend-shoppe.onrender.com/api";
