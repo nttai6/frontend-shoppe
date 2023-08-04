@@ -1,0 +1,10 @@
+.nav-manage a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.nav-manage a span{
+    margin-right: 10px;
+}
